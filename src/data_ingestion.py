@@ -9,7 +9,7 @@ os.makedirs(log_dir,exist_ok=True)
 logger=logging.getLogger('data_ingestion')
 logger.setLevel('DEBUG')
 
-console_handler=logging.StreamHandgitler()
+console_handler=logging.StreamHandler()
 console_handler.setLevel('DEBUG')
 
 file_handeler=os.path.join(log_dir,'data_ingestion.log')
